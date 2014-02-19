@@ -5,14 +5,11 @@
 @import 'fonts';
 @import 'animate';
 
-
-$image-one:     url("http://lorempixel.com/g/1200/500/");
-$image-two:     url("http://lorempixel.com/1200/500/sports");
-$image-three:   url("http://placepuppy.it/1200/500");
-$image-four:    url("http://placekitten.com/1200/500");
-
 $slider-height: 424px;
 
+.preload{
+	display: none !important;
+}
 
 %position--right{
 	right: 0;
@@ -99,7 +96,6 @@ a{
 }
 
 .js-at-bat{
-	background-image: $image-one;
 	
 	width: 63.6%;
 	left: 1.6%;
@@ -112,7 +108,6 @@ a{
 }
 
 .js-on-deck{
-	background-image: $image-two;
 	
 	left: 67.8%;
 	
@@ -123,7 +118,6 @@ a{
 }
 
 .js-in-the-hole{
-	background-image: $image-three;
 	
 	left: 100.85%;
 
@@ -146,7 +140,6 @@ a{
 
 
 .js-last-up{
-	background-image: $image-four;
 	
 	left: -31.4%;
 	
