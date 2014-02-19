@@ -1,0 +1,266 @@
+@import 'defaults';
+@import 'tools';
+@import 'mixins';
+@import 'normalize';
+@import 'fonts';
+@import 'animate';
+
+
+$image-one:     url("http://lorempixel.com/g/1200/500/");
+$image-two:     url("http://lorempixel.com/1200/500/sports");
+$image-three:   url("http://placepuppy.it/1200/500");
+$image-four:    url("http://placekitten.com/1200/500");
+
+$slider-height: 424px;
+
+
+%position--right{
+	right: 0;
+}
+
+%position--left{
+	left: 0;
+}
+
+body{
+	padding-top: 68px;
+}
+
+ul, li{
+	margin-top: 0;
+	padding-left: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	cursor: pointer;
+}
+
+.content-slider{
+	overflow: hidden;
+	position: relative;
+	
+	&:hover{
+		.slider-control__prev, .slider-control__next{
+			@include vendor(transform, translateX(0px));
+		}
+		
+		.slider-control__prev{
+			@include mq(780px, max) {
+				@include vendor(transform, translateX(-10px));
+			}
+		}
+		.slider-control__next{
+			@include mq(780px, max) {
+				@include vendor(transform, translateX(10px));
+			}
+		}
+	}
+}
+
+.slider {
+    height: $slider-height;
+    position: relative;
+	max-width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto;
+	
+}
+
+
+.mask{
+	overflow: hidden;
+	height: $slider-height;
+}
+
+.slider__item{
+	position: absolute;
+	width: 30.6%;
+	height: 100%;
+	margin: 0;	
+	background-position:center; 
+	background-size: cover;
+	
+	@include vendor(transition-property, width, left, opacity);
+	@include vendor(transition-duration, 800ms);
+	@include vendor(transition-timing-function, ease);
+	@include vendor(transform, translate3d(0px,0px,0px));
+	
+	a{
+		position: relative;
+		
+		display: block;
+		height: 100%;
+	}
+
+}
+
+.js-at-bat{
+	background-image: $image-one;
+	
+	width: 63.6%;
+	left: 1.6%;
+	z-index: 1;
+	
+	@include mq(980px, max) {
+		width: 100%;
+		left: 0;
+	}
+}
+
+.js-on-deck{
+	background-image: $image-two;
+	
+	left: 67.8%;
+	
+	@include mq(979px, max) {		
+		left: 100%;
+		width: 100%;
+	}
+}
+
+.js-in-the-hole{
+	background-image: $image-three;
+	
+	left: 100.85%;
+
+	@include vendor(opacity, 0.3);	
+	@include vendor(transition, none);
+	@include vendor(animation-name, sliderBegin, sliderEnd);
+	@include vendor(animation-duration, 400ms);
+	@include vendor(animation-timing-function, ease);
+	@include vendor(animation-delay, 0, 400ms);
+}
+
+	.slider__reverse  .js-in-the-hole{
+		@include vendor(animation, none);
+		@include vendor(animation-name, none);
+		@include vendor(transition-duration, 800ms);
+		@include vendor(transition-property, width, left, opacity);
+	    @include vendor(animation-timing-function, ease);
+	}
+
+
+
+.js-last-up{
+	background-image: $image-four;
+	
+	left: -31.4%;
+	
+	@include vendor(opacity, 0.3);
+	
+	@include mq(979px, max) {
+		left: -100%;
+		width: 100%;
+		-webkit-opacity: 1;
+		-moz-opacity: 1;
+		opacity: 1;
+	}
+}
+
+	.slider__reverse  .js-last-up{
+	    @include vendor(transition, none);
+		@include vendor(animation-name, sliderReverseBegin, sliderReverseEnd);
+	    @include vendor(animation-duration, 400ms);
+	    @include vendor(animation-timing-function, ease);
+	    @include vendor(animation-delay, 0, 400ms);
+	}
+
+
+
+
+
+.slider-control{
+	position: absolute;
+	top: 25%;
+	bottom: 0;
+	
+	width: 6%;
+	height: 50%;
+	min-width: 55px;
+	min-height: 60px;
+	width: 100px;
+	
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	display: block;
+	z-index: 1;
+	
+	@include vendor(transform, 200ms);
+	-webkit-transition: -webkit-transform 200ms;
+	-moz-transition: -moz-transform 200ms;
+	-o-transition: -o-transform 200ms;
+	
+	i{
+		-webkit-transition: -webkit-transform 200ms;
+		-moz-transition: -moz-transform 200ms;
+		-o-transition: -o-transform 200ms;
+		@include vendor(transition-property, left);
+	}
+	
+	&:hover{
+		.slider-control--btn{
+			width: 60px;
+			background-color: rgba(0,0,0,0.8);
+		}			
+	}
+}
+
+.slider-control__prev{
+	@extend %position--left;
+	
+	@include vendor(transform, translateX(-58px));
+	
+	.slider-control--btn{
+		@extend %position--left;
+		
+		@include mq(979px, max) {
+			left: 10px;
+		}
+	}
+	
+	&:hover{
+		i{
+			left: -.2em;
+		}
+	}
+}
+
+.slider-control__next{
+	@extend %position--right;
+	
+	@include vendor(transform, translateX(58px));
+	
+	.slider-control--btn{
+		@extend %position--right;
+		
+		@include mq(979px, max) {
+			right: 10px;
+		}
+	}
+	
+	&:hover{
+		i{
+			right: -.2em;
+		}
+	}
+}
+
+.slider-control--btn{
+	position: absolute;
+	top: 50%;
+	width: 48px;
+	height: 60px;
+	margin-top: -30px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 2.2em;
+	color: #FFF;
+	background-color: #222;
+	background-color: rgba(0,0,0,0.35);
+
+	@include vendor(transition, background-color 150ms linear);
+	@include vendor(transition-property, width);
+}

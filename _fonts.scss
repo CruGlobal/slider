@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'fonticon';
+  src: url('fonts/fonticon.eot?29587551');
+  src: url('fonts/fonticon.eot?29587551#iefix') format('embedded-opentype'),
+       url('fonts/fonticon.woff?29587551') format('woff'),
+       url('fonts/fonticon.ttf?29587551') format('truetype'),
+       url('fonts/fonticon.svg?29587551#fonticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fonticon';
+    src: url('../font/fonticon.svg?29587551#fonticon') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fonticon";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+}
+ 
+.icon-prev:before { content: '\e801'; } /* '' */
+.icon-next:before { content: '\e800'; } /* '' */
