@@ -1,24 +1,30 @@
 /*
-Syntax error: Invalid CSS after "@import 'animate';": expected selector or at-rule, was "<<<<<<< HEAD"
-        on line 8 of style.scss
+Syntax error: Invalid CSS after ".js-at-bat{": expected "}", was "<<<<<<< HEAD"
+        on line 99 of style.scss
 
-3: @import 'mixins';
-4: @import 'normalize';
-5: @import 'fonts';
-6: @import 'animate';
-7: 
-8: <<<<<<< HEAD
-9: $slider-height: 424px;
-10: 
-11: .preload{
-12: 	display: none !important;
-13: } 
+94: 	}
+95: 
+96: }
+97: 
+98: .js-at-bat{
+99: <<<<<<< HEAD
+100: =======
+101: 	background-image: $image-one;
+102: >>>>>>> ab41ec5b361461d6b970d67322dcc2f422237acd
+103: 	
+104: 	width: 63.6%;
 
 Backtrace:
-style.scss:8
+style.scss:99
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:1146:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:1084:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:28:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:1079:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:535:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:528:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:552:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:545:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:27:in `parse'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/engine.rb:342:in `_to_tree'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
@@ -38,4 +44,4 @@ style.scss:8
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"@import 'animate';\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 8 of style.scss\A \A 3: @import 'mixins';\A 4: @import 'normalize';\A 5: @import 'fonts';\A 6: @import 'animate';\A 7: \A 8: <<<<<<< HEAD\A 9: $slider-height: 424px;\A 10: \A 11: .preload{\A 12: 	display: none !important;\A 13: } "; }
+  content: "Syntax error: Invalid CSS after \".js-at-bat{\": expected \"}\", was \"<<<<<<< HEAD\"\A         on line 99 of style.scss\A \A 94: 	}\A 95: \A 96: }\A 97: \A 98: .js-at-bat{\A 99: <<<<<<< HEAD\A 100: =======\A 101: 	background-image: $image-one;\A 102: >>>>>>> ab41ec5b361461d6b970d67322dcc2f422237acd\A 103: 	\A 104: 	width: 63.6%;"; }

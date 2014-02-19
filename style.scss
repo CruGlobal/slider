@@ -5,22 +5,11 @@
 @import 'fonts';
 @import 'animate';
 
-<<<<<<< HEAD
 $slider-height: 424px;
 
 .preload{
 	display: none !important;
 } 
-=======
-
-$image-one:     url("http://lorempixel.com/g/1200/500/");
-$image-two:     url("http://lorempixel.com/1200/500/sports");
-$image-three:   url("http://placepuppy.it/1200/500");
-$image-four:    url("http://placekitten.com/1200/500");
-
-$slider-height: 424px;
-
->>>>>>> ab41ec5b361461d6b970d67322dcc2f422237acd
 
 %position--right{
 	right: 0;
