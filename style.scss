@@ -96,11 +96,6 @@ a{
 }
 
 .js-at-bat{
-<<<<<<< HEAD
-=======
-	background-image: $image-one;
->>>>>>> ab41ec5b361461d6b970d67322dcc2f422237acd
-	
 	width: 63.6%;
 	left: 1.6%;
 	z-index: 1;
@@ -111,12 +106,7 @@ a{
 	}
 }
 
-.js-on-deck{
-<<<<<<< HEAD
-=======
-	background-image: $image-two;
->>>>>>> ab41ec5b361461d6b970d67322dcc2f422237acd
-	
+.js-on-deck{	
 	left: 67.8%;
 	
 	@include mq(979px, max) {		
@@ -125,12 +115,7 @@ a{
 	}
 }
 
-.js-in-the-hole{
-<<<<<<< HEAD
-=======
-	background-image: $image-three;
->>>>>>> ab41ec5b361461d6b970d67322dcc2f422237acd
-	
+.js-in-the-hole{	
 	left: 100.85%;
 
 	@include vendor(opacity, 0.3);	
@@ -152,11 +137,6 @@ a{
 
 
 .js-last-up{
-<<<<<<< HEAD
-=======
-	background-image: $image-four;
->>>>>>> ab41ec5b361461d6b970d67322dcc2f422237acd
-	
 	left: -31.4%;
 	
 	@include vendor(opacity, 0.3);
