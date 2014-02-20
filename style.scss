@@ -43,6 +43,9 @@ a{
 	text-decoration: none;
 }
 
+
+
+
 .content-slider{
 	overflow: hidden;
 	position: relative;
@@ -184,13 +187,21 @@ a{
 
 	.article-details{
 		position: absolute;
-		bottom: 0;
+		bottom: -10px;
 		left: 0;
 		right: 0;
 		text-shadow: 0 1px 2px rgba(0,0,0,0.8);
 		padding: 0;
 		border: 0 none;
 		background: rgba(0,0,0,0.7);
+		
+		
+		@include vendor(opacity, 0);
+		@include vendor(transition-property, opacity, bottom, color);
+		@include vendor(transition-timing-function, ease);
+		@include vendor(transition-duration, 250ms);
+		@include vendor(transition-delay, 62ms, 62ms,0);
+		
 		
 		h3{
 			margin-bottom: 0;
@@ -242,6 +253,25 @@ a{
 				line-height: 2.5em;
 				text-overflow: ellipsis;
 			}
+		}
+		
+		
+		.js-at-bat, .js-on-deck{
+			.article-details{
+				bottom: 0;
+				@include vendor(opacity, 1);
+			
+			}
+		}
+		
+		@keyframes fadeIn {
+			0% { opacity: 0 }
+			100% { opacity: 1 }
+		}
+		
+		@keyframes fadeOut {
+			0% { opacity: 1 }
+			100% { opacity: 0 }
 		}
 
 
