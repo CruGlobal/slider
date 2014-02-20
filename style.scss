@@ -3,6 +3,12 @@
 @import 'mixins';
 @import 'normalize';
 @import 'fonts';
+@import 'shared';
+@import 'base';
+@import 'headings';
+@import 'paragraphs';
+
+
 @import 'animate';
 
 $slider-height: 424px;
@@ -34,6 +40,7 @@ ul{
 
 a{
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .content-slider{
@@ -78,8 +85,6 @@ a{
 	width: 30.6%;
 	height: 100%;
 	margin: 0;	
-	background-position:center; 
-	background-size: cover;
 	
 	@include vendor(transition-property, width, left, opacity);
 	@include vendor(transition-duration, 800ms);
@@ -158,7 +163,86 @@ a{
 	    @include vendor(animation-delay, 0, 400ms);
 	}
 
+	.block-image{
+		width: 100%;
+		height: 100%;
+	}
+	
+		.background-image{
+			position: absolute;
+			top: 0;
+			left: 0;
+			
+			width: 100%;
+			height: 100%;
+			background-position: center center;
+			background-repeat: no-repeat;
+			overflow: hidden;
+		
+			@include vendor(background-size, cover);
+		}
 
+	.article-details{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+		padding: 0;
+		border: 0 none;
+		background: rgba(0,0,0,0.7);
+		
+		h3{
+			margin-bottom: 0;
+			@include font-size(22px, false);
+		}
+		
+		a{
+			color: #ffffff;
+			display: block;
+			padding: 0 1.4em;
+			line-height: 2.5em;
+			text-overflow: ellipsis;
+			
+			@include vendor(transition, color .15s linear);
+			
+			&:hover{
+				color: #cccccc;
+			}
+		}
+	}
+		.sub-details{
+			color: #FFF;
+			padding: 1px 0;
+			max-height: 2.5em;
+			overflow: hidden;
+			border-top: 1px dotted #FFF;
+			border-top-color: rgba(255,255,255,0.4);
+			
+			.author{
+				float: left;
+				max-width: 200px;	
+				display: block;
+				padding: 0 1.4em;
+				line-height: 2.5em;
+				text-overflow: ellipsis;
+			}
+			
+			a{
+				overflow: hidden;
+				white-space: nowrap;
+			}
+			
+			.subheading{
+			    float: right;
+				border-left: 1px dotted #FFF;
+				border-left-color: rgba(255,255,255,0.4);
+				display: block;
+				padding: 0 1.4em;
+				line-height: 2.5em;
+				text-overflow: ellipsis;
+			}
+		}
 
 
 
