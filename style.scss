@@ -60,12 +60,12 @@ a{
 		
 		.slider-control__prev{
 			@include mq(780px, max) {
-				@include vendor(transform, translateX(-10px));
+				//@include vendor(transform, translateX(-10px));
 			}
 		}
 		.slider-control__next{
 			@include mq(780px, max) {
-				@include vendor(transform, translateX(10px));
+				//@include vendor(transform, translateX(10px));
 			}
 		}
 	}
