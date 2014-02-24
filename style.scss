@@ -326,9 +326,8 @@ a{
 .slider-control__prev{
 	@extend %position--left;
 	
-	@include mq(981px) {
-		@include vendor(transform, translateX(-58px));
-	}	
+	@include vendor(transform, translateX(-58px));
+	
 	.slider-control--btn{
 		@extend %position--left;
 	}
@@ -342,9 +341,7 @@ a{
 
 .slider-control__next{
 	@extend %position--right;
-	@include mq(981px) {
 		@include vendor(transform, translateX(58px));
-	}
 	
 	.slider-control--btn{
 		@extend %position--right;
