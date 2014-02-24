@@ -26,7 +26,10 @@ $slider-height: 424px;
 }
 
 body{
-	padding-top: 68px;
+	padding-top: 52px;
+	@include mq(481px) {
+		padding-top: 88px;
+	}
 }
 
 ul, li{
@@ -69,11 +72,15 @@ a{
 }
 
 .slider {
-    height: $slider-height;
+    height: $slider-height - 104;
     position: relative;
 	max-width: 1200px;
 	padding: 0 20px;
 	margin: 0 auto;
+	
+	@include mq(481px) {
+		height: $slider-height;
+	}
 	
 }
 
