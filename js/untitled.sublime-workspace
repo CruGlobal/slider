@@ -1,0 +1,332 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"behind_im",
+				"behind_img_height"
+			],
+			[
+				"bei",
+				"behind_img_width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"o",
+				"operators"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"htm",
+				"htmlentities"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/richardcoy/Desktop/New Cru Slider 2/index.html",
+		"/Users/richardcoy/Desktop/New Cru Slider/js/cru_carousel.js",
+		"/Users/richardcoy/Desktop/New Cru Slider/css/style.css",
+		"/Users/richardcoy/Desktop/New Cru Slider/index.html",
+		"/Users/richardcoy/Desktop/jcarousel-0.3.0/examples/responsive/index.html",
+		"/Users/richardcoy/Desktop/jcarousel-0.3.0/examples/responsive/cru_carousel.css",
+		"/Users/richardcoy/Desktop/New Cru Slider/carousel.css",
+		"/Users/richardcoy/Desktop/2 Slider/cru.html",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/faq/create.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/faq/edit.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/controllers/FaqController.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/faq/index.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/controllers/BlogController.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/index.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/blog/index.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/public/faq.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/public/blog.blade.php",
+		"/Users/richardcoy/Desktop/new-rs-9.5.1/templates/visible-nearby/index.html",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/public/blog-single.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/routes.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/public/index.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/blog/create.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/blog/edit.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/master/public.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/public/blog_single.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/blog.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/public/public.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/faq.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/models/Faq.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/master.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/start/global.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/public/master.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/database/migrations/2014_01_31_192149_create_faqs_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/database/seeds/DatabaseSeeder.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/database/seeds/FaqsTableSeeder.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/database/migrations/2014_01_29_191550_create_blogs_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/blog/create.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/blog/destroy.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/blog/show.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/models/Blog.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/models/Post.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/database/seeds/UsersTableSeeder.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/database/migrations/2014_01_27_184217_create_users_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/public/css/public/style.css",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/database/migrations/2014_01_28_230630_create_blog_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/controllers/AdminSessionsController.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/settings.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/views/admin/login.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/filters.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/app/controllers/SessionsController.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/public/images/back-orange.png",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/public/css/admin/dark.css",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers2/public/css/admin/signin.css",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/routes.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/controllers/admin/FaqController.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/controllers/admin/BlogController.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/admin/index.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/layouts/admin.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/filters.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/models/User.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_26_105556_create_users_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/seeds/BlogTableSeeder.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/seeds/DatabaseSeeder.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/controllers/SessionsController.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/sessions/create.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/controllers/admin/IndexController.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/admin/blog.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/admin/faq.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_26_104727_create_users_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/start/global.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/faqs/index.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/models/Faq.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/faq/create.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/controllers/FaqController.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/models/Blog.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/faqs.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/blog.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/controllers/FrontSiteController.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_25_165221_create_faq_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_25_153759_create_blog_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/public/css/style.css",
+		"/Users/richardcoy/Desktop/Bootstrap Themes/products_WB03P4065/services.html",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/about.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/home.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/layouts/master.blade.php",
+		"/Users/richardcoy/Desktop/Bootstrap Themes/light-blue/landing.html",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/public/css/application.min.css",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/public/index2.html",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/public/index3.html",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/public/index.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/signin.blade.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/contact.blade.php",
+		"/Users/richardcoy/Desktop/Bootstrap Themes/products_WB03P4065/full-width.html",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/sftp-config.json",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/views/hello.blade.php",
+		"/Users/richardcoy/Desktop/dist 2/css/bootstrap-theme.min.css",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/public/css/bootstrap-theme.min.css",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/public/css/bootstrap.min.css",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/public/js/jquery.min.js",
+		"/Users/richardcoy/Desktop/dist/css/bootstrap-theme.min.css",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_20_181414_create_friends_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_20_180942_create_mypivottable_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_20_180848_create_mypivot_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_20_180825_create_mypivot_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_20_180733_create_users.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_20_180051_create_users_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_20_175552_create_users_table.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_20_175341_create_users.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_20_174919_create_users.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/config/database.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/app/database/migrations/2014_01_20_174736_create_users.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/laravel4/app/views/hello.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/Validation.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/Input.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/register.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/core/init.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/index.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/Config.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/DB.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/functions/sanitize.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/includes/errors/404.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/validation.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/user.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/token.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/session.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/redirect.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/input.php",
+		"/Users/richardcoy/Google Drive/MAMP_SITES/coprayers/classes/hash.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"600",
+			"{{",
+			" t(",
+			"dark"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/richardcoy/Google Drive/Javascript Code/Off Canvas Example/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true
+}
